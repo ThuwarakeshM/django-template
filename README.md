@@ -21,11 +21,15 @@ To set up the project you should have Poetry installed. You can find the instruc
 1. Clone the project
 2. Install dependencies with
 
-`poetry install`
+```
+poetry install
+```
 
 3. Change the origin to point your own repository (optional)
 
-`git remote set-url <Your repository url>`
+```
+git remote set-url <Your repository url>
+```
 
 4. Create a .env file in the project root directory. You can use the below template.
 
@@ -38,7 +42,9 @@ DB_PASSWORD=
 
 To generate a secret key you can use ,
 
-`python -c "import secrets; print(secrets.token_urlsafe())"`
+```
+python -c "import secrets; print(secrets.token_urlsafe())"
+```
 
 ---
 
